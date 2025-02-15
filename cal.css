@@ -1,0 +1,102 @@
+
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+      background-image: url(white-and-orange.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 25px;
+}
+
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgba(0, 0, 0, 0.786); */
+  backdrop-filter: blur(50px);
+    background: transparent;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+ 
+}
+#display{
+    width: 100%;
+    padding: 30px;
+    font-size: 3em;
+    border: none;
+    /* background-color: rgba(0, 0, 0, 0.786); */
+    color: rgb(0, 0, 0);
+    background: transparent;
+    backdrop-filter: blur(50px);
+   
+
+}
+input {
+    border: none;
+    outline: none; /* Removes default focus outline */
+   
+}
+
+
+button{
+  
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    font-size: 3em;
+    font-weight: bold;
+    /* background-color: black; */
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.295);
+    backdrop-filter: blur(100px);
+    color: whitesmoke;
+    transition: hover ;
+     transition: background-color 0.5s ease ease-in-out;
+}
+
+.operator-btn {
+    background-color: orange;
+
+}
+
+button:active{
+    /* background-color: white;
+    color: black; */
+   background-color: aliceblue;
+   color: black;
+}
+
+.operator-btn:active{
+    background-color: rgb(255, 6, 6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
