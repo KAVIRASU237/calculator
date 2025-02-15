@@ -79,8 +79,13 @@ button:active{
     background-color: rgb(255, 6, 6);
 }
 
-
-
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Optional: Centers content */
+    /* Optional: Adds some space */
+}
 
 
 
